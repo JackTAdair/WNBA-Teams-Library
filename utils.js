@@ -43,6 +43,7 @@ function getCoach(team) {
   var headCoachByTeam = [];
 for (var i = 0; i < teams.length; i++) {
   if (teams[i].toLowerCase().includes(team.toLowerCase())){
+    headCoachByTeam=headCoach[i]
   }
 }if(headCoachByTeam.length == 0){
   return "Input Not Valid"
